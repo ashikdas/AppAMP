@@ -250,3 +250,37 @@ body,h1,h2,h3,h4,h5,p,a,span{
     font-size: 20px;
     line-height: 1.6em;
 }
+
+/* Pricing Table CSS */
+.pricing-table-section{
+    background: #f7f9ff;
+    padding: 50px;
+}
+.section-title h2{
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.pricing-tables{
+    margin-top: 80px;
+}
+.pricing-table-item{
+    width: 32%;
+    margin-right: 2%;
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.1);
+}
+.p-heading{}
+.p-content{}
+
+.p-heading h4{}
+.p-heading h1{}
+.p-heading h5{}
+.p-heading p{}
+
+.p-content ul{}
+.p-content ul li{}
+
+.p-button .default-btn{
+
+}
