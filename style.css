@@ -473,3 +473,18 @@ body,h1,h2,h3,h4,h5,p,a,span{
     font-size: 20px;
     line-height: 1.6em;
 }
+
+/* Testimonial Section */
+.testimonial-section{
+    padding: 100px 0;
+}
+.testimonial-items{
+    margin-top: 100px;
+}
+.t-item{
+    width: 23%;
+    margin-right: 2%;
+}
+.t-item:last-child{
+    margin-right: 0;
+}
