@@ -340,9 +340,11 @@ body,h1,h2,h3,h4,h5,p,a,span{
 /* CSS for Team Section */
 
 .team-section{
-    padding: 50px 0;
+    padding: 100px 0;
 }
-.team-members{}
+.team-section .section-title h2{
+    font-size: 40px;
+}
 
 .member{
     width: 23%;
@@ -365,4 +367,7 @@ body,h1,h2,h3,h4,h5,p,a,span{
 .member-bio p{
     color: #767676;
     font-size: 19px;
+}
+.team-members{
+    margin-top: 80px;
 }
