@@ -33,6 +33,10 @@ a{
     margin:auto;
 }
 
+.p-bg{
+    background-color: #f7f9ff;
+}
+
 /* Main CSS Beginning */
 body,h1,h2,h3,h4,h5,p,a,span{
     font-family: 'Work Sans', sans-serif;
@@ -350,7 +354,7 @@ body,h1,h2,h3,h4,h5,p,a,span{
     width: 23%;
     margin-right: 2%;
     background: #fff;
-    box-shadow: 3px 4px 0 rgba(98, 120, 223, .2);
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .5);
 }
 .member img{
     width: 100%;
@@ -370,4 +374,51 @@ body,h1,h2,h3,h4,h5,p,a,span{
 }
 .team-members{
     margin-top: 80px;
+}
+
+/* NewsLattrer Section CSS*/
+.newslatter-section{
+    padding: 100px 0;
+}
+.newslatter-form{
+    margin-top: 60px;
+}
+
+.default-input{
+    width: 350px;
+    padding: 20px 15px;
+    font-size: 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .5);
+    transition: 1s;
+}
+.default-input:focus{
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .5);
+    border: 1px solid #6278df;
+}
+.submit-btn{
+    background: #6278df;
+    font-size: 23px;
+    color: #fff;
+    border: none;
+    padding: 20px 90px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 15px;
+    box-shadow: 3px 4px 0 rgba(98, 120, 223, .2);
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.submit-btn:hover{
+    box-shadow: 3px 4px 0 rgba(98, 120, 223, .4);
+    background: #fff;
+    color: #6278df;
+    border: 2px solid #6278df;
+}
+.section-title.newslatter-title h2{
+    margin-top: 56px;
+    font-size: 44px;
 }
