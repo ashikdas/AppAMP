@@ -116,6 +116,9 @@ body,h1,h2,h3,h4,h5,p,a,span{
     transform: scaleY(0);
     transform-origin: top center;
 }
+.primary-menu ul li ul li{
+    display: block;
+}
 .primary-menu ul li:hover ul{
     opacity: 1;
     visibility: visible;
